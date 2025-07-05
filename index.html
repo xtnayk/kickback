@@ -2,43 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kickback – Soccer Training Reimagined</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kickback - Solo Soccer Training Reimagined</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <h1>Kickback</h1>
-    <p>The Ultimate Solo Soccer Trainer</p>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Kickback</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Train Smarter, Kick Harder</h1>
+        <p>Kickback is your personal solo soccer trainer with instant ball return technology.</p>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+    </section>
   </header>
 
   <main>
-    <section class="intro">
-      <img src="images/kickback-demo.jpg" alt="Kickback in action" class="product-image" />
-      <h2>Train Smarter, Kick Harder</h2>
-      <p>Kickback uses an innovative flywheel system to launch the ball back to you — no teammates needed.</p>
-      <p>Perfect your shots, improve control, and train anytime, anywhere.</p>
-    </section>
-
-    <section class="features">
+    <section id="features" class="features-section">
       <h2>Why Kickback?</h2>
-      <ul>
-        <li>⚽ Hands-free solo training</li>
-        <li>🔁 Instant ball return system</li>
-        <li>🚀 Adjustable power settings</li>
-        <li>🧠 Designed by athletes, for athletes</li>
-      </ul>
+      <div class="features-cards">
+        <div class="card">
+          <h3>Hands-Free Training</h3>
+          <p>Practice your shots anytime without a teammate.</p>
+        </div>
+        <div class="card">
+          <h3>Instant Ball Return</h3>
+          <p>Our flywheel system returns the ball instantly for continuous practice.</p>
+        </div>
+        <div class="card">
+          <h3>Adjustable Power</h3>
+          <p>Customize the ball speed to fit your training level.</p>
+        </div>
+      </div>
     </section>
 
-    <section class="cta">
-      <h2>Ready to Level Up?</h2>
-      <a href="#contact" class="button">Contact Us</a>
+    <section id="demo" class="demo-section">
+      <h2>See Kickback in Action</h2>
+      <video controls poster="images/placeholder-poster.jpg" class="demo-video">
+        <source src="images/kickback-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h2>What Players Say</h2>
+      <div class="testimonial">
+        <p>"Kickback transformed my solo training routine!"</p>
+        <span>- Alex, Pro Soccer Player</span>
+      </div>
+      <div class="testimonial">
+        <p>"An essential tool for every serious athlete."</p>
+        <span>- Jamie, Coach</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer>
     <p>© 2025 Kickback. All rights reserved.</p>
-    <p><a href="#contact">Contact</a></p>
+    <p>Follow us on
+      <a href="#" aria-label="Facebook">Facebook</a> |
+      <a href="#" aria-label="Instagram">Instagram</a> |
+      <a href="#" aria-label="Twitter">Twitter</a>
+    </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
