@@ -1,4 +1,4 @@
-/* Reset default margins/padding */
+/* Reset default margins and paddings */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   background-color: #f5f5f5;
   color: #333;
-  padding: 0;
+  padding: 0 20px;
 }
 
 /* Hero Header */
@@ -35,6 +35,8 @@ body {
   padding: 40px 20px;
   text-align: center;
   background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .product-image {
@@ -55,11 +57,13 @@ body {
   margin: 10px 0;
 }
 
-/* Features */
+/* Features Section */
 .features {
   background-color: #e7e7e7;
   padding: 40px 20px;
   text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .features ul {
@@ -71,12 +75,14 @@ body {
   margin: 10px 0;
 }
 
-/* Call To Action */
+/* Call to Action */
 .cta {
   background-color: #0066cc;
   color: white;
   padding: 40px 20px;
   text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .button {
@@ -88,6 +94,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -101,6 +108,7 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 0.9rem;
+  margin-top: 40px;
 }
 
 footer a {
